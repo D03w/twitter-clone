@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.Sidebar a.active {
+    @apply bg-gray-700
+}
+
+.Home a {
+    @apply text-gray-500 font-bold
+}
+
+.Home a.active {
+    @apply text-white
+}
+
+.MainLayout {
+    scroll-behavior: smooth;
+}
